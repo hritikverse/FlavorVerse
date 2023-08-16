@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipe Sharing Website</title>
+    <link rel="stylesheet" href="userstyle.css">
+</head>
+<body>
+    <header>
+        <h1>Recipe Sharing</h1>
+    </header>
+
+    <main>
+        <section class="submit-recipe">
+            <h2>Submit Your Recipe</h2>
+            <form action="submit_recipe.php" method="post">
+                <label for="recipe-name">Recipe Name</label>
+                <input type="text" id="recipe-name" name="recipe-name" required>
+
+                <label for="ingredients">Ingredients</label>
+                <textarea id="ingredients" name="ingredients" rows="4" required></textarea>
+
+                <label for="instructions">Instructions</label>
+                <textarea id="instructions" name="instructions" rows="8" required></textarea>
+
+                <button type="submit">Submit Recipe</button>
+            </form>
+        </section>
+
+        <section class="recipes-list">
+            <h2>Featured Recipes</h2>
+            <div class="recipe-card">
+                <h3>Recipe Title</h3>
+                <p>Ingredients: Lorem ipsum dolor sit amet...</p>
+                <p>Instructions: Lorem ipsum dolor sit amet...</p>
+            </div>
+            <!-- Add more recipe cards here -->
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Recipe Sharing. All rights reserved.</p>
+    </footer>
+</body>
+</html>
