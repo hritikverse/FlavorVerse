@@ -72,6 +72,63 @@ Licence: <a href="http://www.templateonweb.com/terms.php?v=content&contentid=152
  padding-top:10px;
  color: #e22709;
 }
+/********************* snack ****************/
+#snack{ 
+ padding-top:30px;
+ padding-bottom:30px;
+ box-shadow: 0 0 1px #f30202;
+}
+.snack_1{ 
+ padding-bottom:30px;
+}
+.snack_1 h3{ 
+ text-align:center;
+ color: #e42929;
+ font-weight:bold;
+}
+.content-top2 h4 {
+ font-size: 14px;
+ letter-spacing: 2px;
+ font-weight: bold;
+ color: #e22709;
+}
+.content-top2 h4:before {
+ display: inline-block;
+ width: 100px;
+ height: 2px;
+ background-color:#ff8f19;
+ vertical-align: middle;
+ margin-right: 1%;
+ content: "";
+}
+.content-top2 h4:after {
+ display: inline-block;
+ width: 100px;
+ height: 2px;
+ background-color:#ff8f19;
+ vertical-align: middle;
+ margin-left: 1%;
+ content: "";
+}
+.snack_3{ 
+ text-align:center;
+ box-shadow: 0 0 1px 1px #ffed00;
+ padding:10px;
+}
+.snack_3 h3{ 
+ padding-top:10px;
+ padding-top: 10px;
+ font-weight: bold;
+ color: #e22709;
+}
+.snack_3 p{ 
+ padding:0px;
+ margin:0px;
+}
+.snack_2{ 
+ margin-bottom:10px;
+}
+/********************* snack_end ****************/
 /********************* recipes_end ****************/
 
 
