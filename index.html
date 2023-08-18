@@ -54,7 +54,7 @@
                 <div class="item active"><!-- First-Slide -->
                     <img src="img/1.jpg" alt="" class="img-responsive">
                     <div class="carousel-caption kb_caption kb_caption_right">
-                        <h1 data-animation="animated flipInX" class="">you're On Best Reciepe</h1>
+                        <h1 data-animation="animated flipInX" class="">You're On Best Reciepe Site</h1>
                         <p data-animation="animated flipInX" class="">we provide very easy and simple steps to cook which gives you delicious reciepes.</p>
 						<!--<h4><a href="#"class="button hvr-shutter-out-horizontal">Read More</a></h4>-->
                     </div>
@@ -87,7 +87,42 @@
                 <span class="sr-only">Next</span>
             </a> 
         </div>
-		<script src="js/custom.js"></script>
+	<style>
+        /* Add CSS styling for the zoom animation */
+        .carousel-inner .item img {
+            animation: zoomInOut 6s alternate infinite;
+            max-width: 100%;
+            height: auto;
+        }
+
+        @keyframes zoomInOut {
+            0%, 100% {
+                transform: scale(1);
+            }
+            50% {
+                transform: scale(1.1);
+            }
+        }
+    </style>
+
+    <section id="center" class="center_home">
+        <div class="banner">
+            <div id="kb" class="carousel kb_elastic animate_text kb_wrapper" data-ride="carousel" data-interval="3000" data-pause="hover">
+                <!-- Your carousel content -->
+
+                <script>
+                    // JavaScript to advance the carousel every 3 seconds
+                    setInterval(function() {
+                        var carousel = document.getElementById("kb");
+                        var currentSlide = carousel.querySelector(".item.active");
+                        var nextSlide = currentSlide.nextElementSibling || carousel.querySelector(".item:first-child");
+                        nextSlide.classList.add("active");
+                        currentSlide.classList.remove("active");
+                    }, 3000);
+                </script>
+            </div>
+        </div>
+    </section>
 	</div>
 </section>
 <section id="middle">
