@@ -61,6 +61,11 @@ h1, h2 {
     color: #e67e22; /* Orange color */
 }
 
+.img-responsive{
+width:100%;
+height:auto;
+}
+
 .image-animation {
     display: flex;
     justify-content: center;
