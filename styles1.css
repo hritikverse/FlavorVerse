@@ -46,6 +46,7 @@ h1, h2 {
 
 .ingredients h2, .instructions h2 {
     color: #FF5733; /* Blue color */
+    align:center;
 }
 
 .instructions ol {
